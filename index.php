@@ -27,18 +27,22 @@ $(document).ready(function (e) {
 </script>
 </head>
 <body>
+<center>
+	<div style="margin-top: 10%">
+		<h1>Image Uploader AJAX PHP Method</h1>
+		<div class="bgColor">
+			<form id="uploadForm" action="upload.php" method="post">
+					<div id="targetLayer">No Image</div>
+					<div id="uploadFormLayer">
+						<input name="userImage" type="file" class="inputFile" /><br/>
+						<input type="submit" value="Submit" class="btnSubmit" />
+				
+					</div>
 
-<div class="bgColor">
-	<form id="uploadForm" action="upload.php" method="post">
-			<div id="targetLayer">No Image</div>
-			<div id="uploadFormLayer">
-				<input name="userImage" type="file" class="inputFile" /><br/>
-				<input type="submit" value="Submit" class="btnSubmit" />
-		
-			</div>
-
-	</form>
-</div>
+			</form>
+		</div>
+	</div>
+</center>
 
 	
 </body>

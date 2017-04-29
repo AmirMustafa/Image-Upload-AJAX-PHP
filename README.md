@@ -1,4 +1,4 @@
-# Image-Upload-Core-PHP and AJAX
+# Image-Upload-Core-PHP and AJAX 
 
 ## Overview
 
